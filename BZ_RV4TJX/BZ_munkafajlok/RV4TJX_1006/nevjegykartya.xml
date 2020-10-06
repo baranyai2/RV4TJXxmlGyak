@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+    <nevjegykartya>
+        <id>123</id>
+        <nev>Kiss Béla</nev>
+        <ceg>
+            <cim>
+                <iranyitoszam>3500</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Kossuth</utca>
+                <hazszam>16</hazszam>
+            </cim>
+            <nev>Felmosok Zrt.</nev>
+            <telefonszam korzet="46">562365</telefonszam>
+            <weblap>https://www.sepru.hu/</weblap>
+        </ceg>
+        <beosztas>Takarító</beosztas>
+        <telefonszam korzet="46">562365/10-20</telefonszam>
+        <email>kbela@sepru.hu</email>
+    </nevjegykartya>
+</nevjegykartyak>
