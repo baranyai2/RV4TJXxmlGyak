@@ -1,0 +1,19 @@
+body{background-image:url('./kepek/blueprint.jpg');
+display:block;
+color: white;
+}
+.tablazat {
+    margin:auto;
+    border-spacing: 0;
+    /*border-collapse: collapse;*/
+    border: 5px solid black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+td {
+    padding: 5px;
+    text-align: center;
+    /*color: white;*/
+    border: 2px solid #ddd;
+}

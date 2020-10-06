@@ -1,0 +1,14 @@
+<!DOCTYPE iskola [
+        <!ELEMENT iskola (tanar|tantárgy)*>
+        <!ELEMENT tanar (nev|szak)*>
+        <!ATTLIST tanar
+                kod CDATA #REQUIRED>
+        <!ELEMENT nev (#PCDATA)>
+        <!ELEMENT szak (#PCDATA)>
+        <!ELEMENT tantárgy (tnév|osztaly)*>
+        <!ATTLIST tantárgy
+                kod CDATA #REQUIRED
+                oktato CDATA #REQUIRED>
+        <!ELEMENT tnév (#PCDATA)>
+        <!ELEMENT osztaly (#PCDATA)>
+        ]>

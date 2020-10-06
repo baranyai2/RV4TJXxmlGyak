@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>XML</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Jakab</nev>
+            <lakcim>Kukutyin</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>101</helyszin>
+    <eloado>
+        <nev>Rodolfo</nev>
+        <adoszam>8157876841</adoszam>
+        <lakcim>Miskolc</lakcim>
+    </eloado>
+    <datum>2020-09-01</datum>
+</konferencia>
