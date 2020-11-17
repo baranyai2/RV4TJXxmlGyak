@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="orarendRV4TJX.xsl"?>
+<orarend>
+    <ora id="1" tipus="Előadás">
+        <targy>Mesterseges Intelligencia</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>12</tol>
+            <ig>15</ig>
+        </idopont>
+        <helyszin>XXX A1 III. em. 305</helyszin>
+        <oktato>Dr. Dudas Laszlo</oktato>
+        <szak>Programtervezo bsc</szak>
+    </ora>
+    <ora id="2" tipus="Előadás">
+        <targy>Korszeru webtechnologiak I.</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>15</tol>
+            <ig>17</ig>
+        </idopont>
+        <helyszin>Inf. 103</helyszin>
+        <oktato>Agardi Anita</oktato>
+        <szak>Programtervezo bsc</szak>
+    </ora>
+    <ora id="3" tipus="Gyakorlat">
+        <targy>Korszeru webtechnologiak I.</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>17</tol>
+            <ig>19</ig>
+        </idopont>
+        <helyszin>Inf. 101</helyszin>
+        <oktato>Satan Adam</oktato>
+        <szak>Programtervezo bsc</szak>
+    </ora>
+    <ora id="4" tipus="Előadás">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>In/101 In I. e. 101</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Programtervezo bsc</szak>
+    </ora>
+    <ora id="5" tipus="Gyarkolat">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>In/101 In I. e. 101</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Programtervezo bsc</szak>
+    </ora>
+    <ora id="6" tipus="Gyakorlat">
+        <targy>Mesterseges Intelligencia</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>17</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>In/15 In. fsz 15</helyszin>
+        <oktato>Dr. Dudas Laszlo</oktato>
+        <szak>Programtervezo bsc</szak>
+    </ora>
+</orarend>
