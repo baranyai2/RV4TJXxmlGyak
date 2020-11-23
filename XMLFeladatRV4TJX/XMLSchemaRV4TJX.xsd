@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="beadando" xmlns="beadando" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="kiszallitas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rendelok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded"
+                                        name="rendelo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev"
+                                                    type="xs:string" />
+                                        <xs:element name="email"
+                                                    type="xs:string" />
+                                        <xs:element name="lakcim">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="iranyitoszam"
+                                                                type="xs:unsignedLong" />
+                                                    <xs:element name="varos"
+                                                                type="xs:string" />
+                                                    <xs:element name="utca"
+                                                                type="xs:string" />
+                                                    <xs:element name="hazszam"
+                                                                type="xs:unsignedInt" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="rendeloid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="rendelesek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded"
+                                        name="rendeles">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ar"
+                                                    type="xs:unsignedInt" />
+                                        <xs:element name="kiszallido"
+                                                    type="xs:unsignedInt" />
+                                        <xs:element name="rendelesido"
+                                                    type="xs:date" />
+                                    </xs:sequence>
+                                    <xs:attribute name="rendelesid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                    <xs:attribute name="rendeloid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                    <xs:attribute name="futid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="futarok">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded"
+                                    name="futar">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nev"
+                                                type="xs:string" />
+                                    <xs:element name="telefonszam"
+                                                type="xs:unsignedLong" />
+                                    <xs:element name="fizetes"
+                                                type="xs:unsignedInt" />
+                                </xs:sequence>
+                                <xs:attribute name="futid"
+                                              type="xs:unsignedByte"
+                                              use="required" />
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+                <xs:element name="etelek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded"
+                                        name="etel">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev"
+                                                    type="xs:string" />
+                                        <xs:element name="elkeszitido"
+                                                    type="xs:unsignedInt" />
+                                        <xs:element name="feltetek"
+                                                    type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="etelid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="tartalmazas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded"
+                                        name="tartalmaz">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="elkeszito"
+                                                    type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="etelid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                    <xs:attribute name="rendelesid"
+                                                  type="xs:unsignedByte"
+                                                  use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

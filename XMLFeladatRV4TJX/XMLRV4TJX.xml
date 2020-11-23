@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kiszallitas xmlns="beadando" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="beadando XMLSchemaRV4TJX.xsd">
+    <rendelok>
+        <rendelo rendeloid="0">
+            <nev>Kiss Péter</nev>
+            <email>kpeti@gmail.com</email>
+            <lakcim>
+                <iranyitoszam>1234</iranyitoszam>
+                <varos>Kukutyin</varos>
+                <utca>Kosstuh Lajos</utca>
+                <hazszam>123</hazszam>
+            </lakcim>
+        </rendelo>
+        <rendelo rendeloid="1">
+            <nev>Nagy Sándor</nev>
+            <email>sanyesz@gmail.com</email>
+            <lakcim>
+                <iranyitoszam>1234</iranyitoszam>
+                <varos>Kukutyin</varos>
+                <utca>Petőfi Sándor</utca>
+                <hazszam>321</hazszam>
+            </lakcim>
+        </rendelo>
+        <rendelo rendeloid="2">
+            <nev>Példa Péter</nev>
+            <email>petike@gmail.com</email>
+            <lakcim>
+                <iranyitoszam>1235</iranyitoszam>
+                <varos>Alsókukutyin</varos>
+                <utca>Főtér</utca>
+                <hazszam>12</hazszam>
+            </lakcim>
+        </rendelo>
+        <rendelo rendeloid="3">
+            <nev>Jócska János</nev>
+            <email>joja@gmail.com</email>
+            <lakcim>
+                <iranyitoszam>1234</iranyitoszam>
+                <varos>Kukutyin</varos>
+                <utca>Kossith Lajos</utca>
+                <hazszam>12</hazszam>
+            </lakcim>
+        </rendelo>
+    </rendelok>
+    <rendelesek>
+        <rendeles rendelesid="0" rendeloid="2" futid="0">
+            <ar>20000</ar>
+            <kiszallido>30</kiszallido>
+            <rendelesido>2020-11-10</rendelesido>
+        </rendeles>
+        <rendeles rendelesid="1" rendeloid="0" futid="1">
+            <ar>3500</ar>
+            <kiszallido>20</kiszallido>
+            <rendelesido>2020-11-11</rendelesido>
+        </rendeles>
+        <rendeles rendelesid="2" rendeloid="1" futid="1">
+            <ar>7500</ar>
+            <kiszallido>20</kiszallido>
+            <rendelesido>2020-11-11</rendelesido>
+        </rendeles>
+        <rendeles rendelesid="3" rendeloid="3" futid="2">
+            <ar>5000</ar>
+            <kiszallido>30</kiszallido>
+            <rendelesido>2020-11-12</rendelesido>
+        </rendeles>
+        <rendeles rendelesid="4" rendeloid="0" futid="1">
+            <ar>3500</ar>
+            <kiszallido>15</kiszallido>
+            <rendelesido>2020-11-15</rendelesido>
+        </rendeles>
+        <rendeles rendelesid="5" rendeloid="1" futid="0">
+            <ar>9000</ar>
+            <kiszallido>25</kiszallido>
+            <rendelesido>2020-11-16</rendelesido>
+        </rendeles>
+    </rendelesek>
+    <futarok>
+        <futar futid="0">
+            <nev>Schmidt Henrik</nev>
+            <telefonszam>06709453211</telefonszam>
+            <fizetes>20000</fizetes>
+        </futar>
+        <futar futid="1">
+            <nev>German Jakab</nev>
+            <telefonszam>06303625510</telefonszam>
+            <fizetes>20000</fizetes>
+        </futar>
+        <futar futid="2">
+            <nev>Szabó Alen</nev>
+            <telefonszam>0620</telefonszam>
+            <fizetes>20000</fizetes>
+        </futar>
+    </futarok>
+    <etelek>
+        <etel etelid="0">
+            <nev>Pepperoni pizza</nev>
+            <elkeszitido>12</elkeszitido>
+            <feltetek>Pepperoni</feltetek>
+        </etel>
+        <etel etelid="1">
+            <nev>Sonkás pizza</nev>
+            <elkeszitido>12</elkeszitido>
+            <feltetek>Sonka</feltetek>
+        </etel>
+        <etel etelid="2">
+            <nev>Hamburger</nev>
+            <elkeszitido>8</elkeszitido>
+            <feltetek>Húspogácsa</feltetek>
+        </etel>
+        <etel etelid="3">
+            <nev>Rántott hús</nev>
+            <elkeszitido>20</elkeszitido>
+            <feltetek>Sültkrumpli</feltetek>
+        </etel>
+        <etel etelid="4">
+            <nev>Májas rizotto</nev>
+            <elkeszitido>35</elkeszitido>
+            <feltetek>Rizs</feltetek>
+        </etel>
+    </etelek>
+    <tartalmazas>
+        <tartalmaz etelid="1" rendelesid="0">
+            <elkeszito>Pista</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="2" rendelesid="0">
+            <elkeszito>Pista</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="3" rendelesid="0">
+            <elkeszito>Pista</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="4" rendelesid="1">
+            <elkeszito>János</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="0" rendelesid="1">
+            <elkeszito>János</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="1" rendelesid="2">
+            <elkeszito>János</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="3" rendelesid="3">
+            <elkeszito>Pista</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="2" rendelesid="3">
+            <elkeszito>Pista</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="0" rendelesid="4">
+            <elkeszito>János</elkeszito>
+        </tartalmaz>
+        <tartalmaz etelid="0" rendelesid="5">
+            <elkeszito>János</elkeszito>
+        </tartalmaz>
+    </tartalmazas>
+</kiszallitas>
