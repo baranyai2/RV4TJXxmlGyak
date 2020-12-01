@@ -1,0 +1,217 @@
+{
+  "kiszallitas": {
+    "-xmlns": "beadando",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xsi:schemaLocation": "beadando XMLSchemaRV4TJX.xsd",
+    "rendelok": {
+      "rendelo": [
+        {
+          "-rendeloid": "0",
+          "nev": "Kiss Péter",
+          "email": "kpeti@gmail.com",
+          "lakcim": {
+            "iranyitoszam": "1234",
+            "varos": "Kukutyin",
+            "utca": "Kosstuh Lajos",
+            "hazszam": "123"
+          }
+        },
+        {
+          "-rendeloid": "1",
+          "nev": "Nagy Sándor",
+          "email": "sanyesz@gmail.com",
+          "lakcim": {
+            "iranyitoszam": "1234",
+            "varos": "Kukutyin",
+            "utca": "Petőfi Sándor",
+            "hazszam": "321"
+          }
+        },
+        {
+          "-rendeloid": "2",
+          "nev": "Példa Péter",
+          "email": "petike@gmail.com",
+          "lakcim": {
+            "iranyitoszam": "1235",
+            "varos": "Alsókukutyin",
+            "utca": "Főtér",
+            "hazszam": "12"
+          }
+        },
+        {
+          "-rendeloid": "3",
+          "nev": "Jócska János",
+          "email": "joja@gmail.com",
+          "lakcim": {
+            "iranyitoszam": "1234",
+            "varos": "Kukutyin",
+            "utca": "Kossith Lajos",
+            "hazszam": "12"
+          }
+        }
+      ]
+    },
+    "rendelesek": {
+      "rendeles": [
+        {
+          "-rendelesid": "0",
+          "-rendeloid": "2",
+          "-futid": "0",
+          "ar": "20000",
+          "kiszallido": "30",
+          "rendelesido": "2020-11-10"
+        },
+        {
+          "-rendelesid": "1",
+          "-rendeloid": "0",
+          "-futid": "1",
+          "ar": "3500",
+          "kiszallido": "20",
+          "rendelesido": "2020-11-11"
+        },
+        {
+          "-rendelesid": "2",
+          "-rendeloid": "1",
+          "-futid": "1",
+          "ar": "7500",
+          "kiszallido": "20",
+          "rendelesido": "2020-11-11"
+        },
+        {
+          "-rendelesid": "3",
+          "-rendeloid": "3",
+          "-futid": "2",
+          "ar": "5000",
+          "kiszallido": "30",
+          "rendelesido": "2020-11-12"
+        },
+        {
+          "-rendelesid": "4",
+          "-rendeloid": "0",
+          "-futid": "1",
+          "ar": "3500",
+          "kiszallido": "15",
+          "rendelesido": "2020-11-15"
+        },
+        {
+          "-rendelesid": "5",
+          "-rendeloid": "1",
+          "-futid": "0",
+          "ar": "9000",
+          "kiszallido": "25",
+          "rendelesido": "2020-11-16"
+        }
+      ]
+    },
+    "futarok": {
+      "futar": [
+        {
+          "-futid": "0",
+          "nev": "Schmidt Henrik",
+          "telefonszam": "06709453211",
+          "fizetes": "20000"
+        },
+        {
+          "-futid": "1",
+          "nev": "German Jakab",
+          "telefonszam": "06303625510",
+          "fizetes": "30000"
+        },
+        {
+          "-futid": "2",
+          "nev": "Szabó Alen",
+          "telefonszam": "0620",
+          "fizetes": "20000"
+        }
+      ]
+    },
+    "etelek": {
+      "etel": [
+        {
+          "-etelid": "0",
+          "nev": "Pepperoni pizza",
+          "elkeszitido": "12",
+          "feltetek": "Pepperoni"
+        },
+        {
+          "-etelid": "1",
+          "nev": "Sonkás pizza",
+          "elkeszitido": "12",
+          "feltetek": "Sonka"
+        },
+        {
+          "-etelid": "2",
+          "nev": "Hamburger",
+          "elkeszitido": "8",
+          "feltetek": "Húspogácsa"
+        },
+        {
+          "-etelid": "3",
+          "nev": "Rántott hús",
+          "elkeszitido": "20",
+          "feltetek": "Sültkrumpli"
+        },
+        {
+          "-etelid": "4",
+          "nev": "Májas rizotto",
+          "elkeszitido": "35",
+          "feltetek": "Rizs"
+        }
+      ]
+    },
+    "tartalmazas": {
+      "tartalmaz": [
+        {
+          "-etelid": "1",
+          "-rendelesid": "0",
+          "elkeszito": "Pista"
+        },
+        {
+          "-etelid": "2",
+          "-rendelesid": "0",
+          "elkeszito": "Pista"
+        },
+        {
+          "-etelid": "3",
+          "-rendelesid": "0",
+          "elkeszito": "Pista"
+        },
+        {
+          "-etelid": "4",
+          "-rendelesid": "1",
+          "elkeszito": "János"
+        },
+        {
+          "-etelid": "0",
+          "-rendelesid": "1",
+          "elkeszito": "János"
+        },
+        {
+          "-etelid": "1",
+          "-rendelesid": "2",
+          "elkeszito": "János"
+        },
+        {
+          "-etelid": "3",
+          "-rendelesid": "3",
+          "elkeszito": "Pista"
+        },
+        {
+          "-etelid": "2",
+          "-rendelesid": "3",
+          "elkeszito": "Pista"
+        },
+        {
+          "-etelid": "0",
+          "-rendelesid": "4",
+          "elkeszito": "János"
+        },
+        {
+          "-etelid": "0",
+          "-rendelesid": "5",
+          "elkeszito": "János"
+        }
+      ]
+    }
+  }
+}
