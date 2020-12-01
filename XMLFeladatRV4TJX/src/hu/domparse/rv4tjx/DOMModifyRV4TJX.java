@@ -111,7 +111,7 @@ public class DOMModifyRV4TJX {
                 TransformerFactory transformerFactory = TransformerFactory.newInstance();
                 Transformer transformer = transformerFactory.newTransformer();
                 DOMSource source = new DOMSource(doc);
-                StreamResult result = new StreamResult(new File("XMLRV4TJXnew.xml"));
+                StreamResult result = new StreamResult(new File("XMLFeladatRV4TJX/XMLRV4TJXnew.xml"));
                 transformer.transform(source, result);
             }
 
